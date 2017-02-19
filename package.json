@@ -1,0 +1,51 @@
+{
+  "name": "castles",
+  "version": "1.0.0",
+  "description": "A competitive logic puzzle useful for teaching",
+  "keywords": [
+    "castles",
+    "riddler",
+    "puzzle"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": "^6.x"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "babel-preset-env": "^1.1.8",
+    "coveralls": "^2.11.15",
+    "eslint": "^3.15.0",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "nyc": "^10.1.2"
+  },
+  "scripts": {
+    "test": "nyc ava --verbose",
+    "autotest": "ava --verbose --watch",
+    "lint": "eslint .",
+    "lint-fix": "eslint . --fix"
+  },
+  "author": "Evan Cowden <evan38109@gmail.com>",
+  "license": "MIT",
+  "ava": {
+    "files": [
+      "lib/**/*Spec.js",
+      "*Spec.js"
+    ],
+    "babel": {
+      "presets": [
+        [
+          "env",
+          {
+            "targets": {
+              "node": "current"
+            }
+          }
+        ]
+      ]
+    }
+  }
+}
