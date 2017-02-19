@@ -2,6 +2,11 @@
 
 A competitive logic puzzle useful for teaching.
 
+| Branch        | Status        |
+| ------------- |:------------- |
+| Master        | [![Build Status](https://travis-ci.org/ecowden/castles.png?branch=master)](https://travis-ci.org/ecowden/castles) [![Coverage Status](https://coveralls.io/repos/github/ecowden/castles/badge.svg?branch=master)](https://coveralls.io/github/ecowden/castles?branch=master) [![NSP Status](https://nodesecurity.io/orgs/ecowden/projects/5cff7ae1-a34a-49f7-bf18-f2b816180930/badge)](https://nodesecurity.io/orgs/ecowden/projects/5cff7ae1-a34a-49f7-bf18-f2b816180930) |
+| All           | [![Build Status](https://travis-ci.org/ecowden/castles.png)](https://travis-ci.org/ecowden/castles) |
+
 This project is inspired by an entry of FiveThirtyEight.com's weekly Riddler puzzle column.
 
 > In a distant, war-torn land, there are 10 castles. There are two warlords: you and your archenemy. Each castle has its own strategic value for a would-be conqueror. Specifically, the castles are worth 1, 2, 3, ..., 9, and 10 victory points. You and your enemy each have 100 soldiers to distribute, any way you like, to fight at any of the 10 castles. Whoever sends more soldiers to a given castle conquers that castle and wins its victory points. If you each send the same number of troops, you split the points. You don't know what distribution of forces your enemy has chosen until the battles begin. Whoever wins the most points wins the war.
