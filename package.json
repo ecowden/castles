@@ -1,6 +1,6 @@
 {
   "name": "castles",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A competitive logic puzzle useful for teaching",
   "keywords": [
     "castles",
@@ -10,6 +10,11 @@
   "main": "index.js",
   "engines": {
     "node": "^6.x"
+  },
+  "homepage": "https://github.com/ecowden/castles",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ecowden/castles.git"
   },
   "dependencies": {},
   "devDependencies": {
