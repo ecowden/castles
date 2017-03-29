@@ -93,8 +93,10 @@ const castles = require('castles')
 const allBattlePlans = castles.sampleBattlePlans.all
 const allArmies = allBattlePlans.map(battlePlan => new castles.Army(battlePlan))
 
-// .war(...) has each Army fight each other exactly once and returns the winner
-const winner = castles.war(allArmies)
+// .war(...) has each Army fight each other exactly once and
+// returns the armies sorted from best to worst
+const sortedArmies = castles.war(allArmies)
+const winner = sortedArmies[0]
 
 t.is(winner.battlePlan.name, 'All to Castle Ten')
 t.is(winner.record, '2-0-0')
